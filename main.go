@@ -64,7 +64,7 @@ func main() {
 	}
 	fmt.Println()
 
-	credits := []int32{0, 1, 4, 8, 32}
+	credits := []int32{0, 1, 4, 8, 32, 128, 1024}
 	fmt.Printf("Consume stream %q (offset=first), msg/s:\n", *stream)
 	fmt.Printf("%-14s %12s\n", "recv credit", "msg/s")
 	fmt.Println(strings.Repeat("-", 28))
